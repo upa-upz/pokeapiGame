@@ -1,8 +1,6 @@
 const container = document.getElementById('main');
 const button = document.getElementById('btn')
 
-// es asqueroso el codigo pero funciona... 
-
 //Generar un id de Pokemon aleatorio
 let radndomId = Math.floor((Math.random() * 150)+1);
 
