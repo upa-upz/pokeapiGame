@@ -37,6 +37,10 @@ button.addEventListener('click', () => {
     <h2 class="h2" id="h2">?</h2><span class="span" id="timeSpan">${time}</span>`
 
     consultarPokemon(radndomId);
+
+    // añade el Background
+    let bg = document.getElementById('bg-img');
+    bg.className += " bg-img-active"
     
     let temporizador = setInterval(() => {
 
